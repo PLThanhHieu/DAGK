@@ -1,0 +1,11 @@
+.Mblock{
+	font:Arial;
+	font-size: 1rem;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 30%;
+	height: 350px;
+	float: left;
+}
