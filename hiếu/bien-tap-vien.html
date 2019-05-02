@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Biên Tập Viên</title>ư
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/popper.min.js"></script>
+	<script src="jquery/jquerymin.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+	<link rel="stylesheet" href="css/hieu.css">
+</head>
+<body>
+	<section class="clearfix header" style="background: #d9d9d9">
+		<div class="container">
+			<div class="row" >
+				<div class="col-10">
+					<img style=" height: 80px" src="images/th16-logo.png">
+				</div>
+				<div class="col-2">
+					<br>
+					<p>Tên biên tập viên</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="clearfix maincontent">
+		<div class="container">
+			<div class="row" >
+				<div class="col-md-9" >
+					<nav class="navbar navbar-light bg-light justify-content-between">
+						<a class="navbar-brand"><b>Xoạn thảo bài viết</b></a>
+					</nav>
+					<form>
+						<div class="row">
+							<div class="col-md-3">
+								<input style="border-bottom: 1px solid #4CAF50;" type="text" name="" placeholder="Tiêu đề">
+							</div>
+							<div class="col-md-3">
+								<select>
+									<option>Chuyên mục</option>
+									<option>Kinh doanh</option>
+									<option>Chính trị</option>
+									<option>Thể thao</option>
+									<option>Đời sống</option>
+									<option>Giáo dục</option>
+									<option>Du lịch</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<form>
+								<input style="width: 67.5%" type="text" name="" placeholder="Tóm tắt bài viết">
+							</form>
+						</div>
+						<div class="row">
+							<form action="" method="post">
+       							<textarea class="ckeditor" name="editor1" cols="80" rows="10">
+           							<p>Nội dung</p>
+       							</textarea>
+       							<input type="button" name="" value="Đăng">
+   							 </form>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-3" >
+					<div class="list-group">
+						<a href="#" class="list-group-item list-group-item-action bg-light ">
+							<h5 style="color:black;font-weight:bold;"> Danh sách bài viết</h5>
+						</a>
+						<a href="#" class="list-group-item list-group-item-action" style="color:black;font-weight:bold;">
+						Đã được duyệt & Chờ xuất bản</a>
+						<a href="#" class="list-group-item list-group-item-action " style="color:black;font-weight:bold;">
+						Bị từ chối</a>
+						<a href="#" class="list-group-item list-group-item-action" style="color:black;font-weight:bold;">
+						Chưa được duyệt</a>
+						<a href="#" class="list-group-item list-group-item-action " style="color:black;font-weight:bold;">
+						Đã xuất bản</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+</body>
+</html>

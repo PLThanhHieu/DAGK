@@ -5,6 +5,7 @@
 	<title>Đăng kí</title>
 	<link rel="stylesheet"  href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
+	
 	<script src="js/popper.min.js"></script>
 	<script src="jquery/jquerymin.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -26,5 +27,55 @@
 			</div>
 		</div>
 	</section>
+	<div class="login">
+		<h1>Đăng kí</h1>
+		<div class="textbox">
+			<input type="text" placeholder="Họ tên" name="">
+		</div>
+		<div class="text-dangki">
+			<form>
+				<select>
+					<option>Ngày sinh</option>
+					<script type="text/javascript">
+      					for (var i = 1; i < 32; i++) {
+        				var html = '<option value="' + i + '">' + i + '</option>';
+        				document.writeln(html);
+      					}
+   					</script>
+				</select>
+				<select>
+					<option>Tháng</option>
+					<script type="text/javascript">
+      					for (var i = 1; i < 13; i++) {
+        				var html = '<option value="' + i + '">' + i + '</option>';
+        				document.writeln(html);
+      					}
+   					</script>
+				</select>
+				<select>
+					<option>Năm</option>
+					<script type="text/javascript">
+      					for (var i = 1970; i < 2018; i++) {
+        				var html = '<option value="' + i + '">' + i + '</option>';
+        				document.writeln(html);
+      					}
+   					</script>
+				</select>
+			</form>
+		</div>
+		<div class="textbox">
+			<input type="text" placeholder="Tài khoản" name="">
+		</div>
+		<div class="textbox">
+			<input type="text" placeholder="Mật khẩu" name="">
+		</div><div class="textbox">
+			<input type="text" placeholder="Xác nhận mật khẩu" name="">
+		</div>
+		<div class="textbox">
+			<input type="text" placeholder="Gmail" name="">
+		</div>
+		<input class="btn-dangnhap" type="button" value="Đăng kí">
+
+	</div>
 </body>
 </html>
